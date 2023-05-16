@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | cut 
+cat /etc/passwd | cut -F: '{print $1 " " $6}' | sort 
