@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #displaying content of files
-while IFS=: read -r user pass uid gid desc home shell
+while IFS=: read -r user uid home
 do
     echo "Username: $user"
     echo "User ID: $uid"
