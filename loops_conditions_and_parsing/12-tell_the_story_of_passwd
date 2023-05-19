@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#i have no idea what am i doing
+ 
+while IFS=: read -r user pass gid desc home shell; do
+    echo "The user $user is part of the $gid gang, lives in $home and rides $shell. USER ID's place is protected by the passcode $pass, more info about the user here: $desc"
+done < /etc/passwd
