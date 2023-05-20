@@ -2,14 +2,14 @@
 #display the time for 12 hours and 59 min
 
 hour=0
-minute=0
+minute=1
 
-while [ $hour -lt 24 ]; do
+while [ $hour -lt 13 ]; do
     printf "Hour: %d\n" $hour
     while [ $minute -lt 60 ]; do
         printf "%02d\n" $minute
         minute=$((minute + 1))
     done
-    minute=0
+    minute=1
     hour=$((hour + 1))
 done
