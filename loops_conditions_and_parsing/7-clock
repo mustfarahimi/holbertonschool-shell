@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #display the time for 12 hours and 59 minutes
 
-hour=00
+hour=0
 
 while [ $hour -le 12 ]
 do echo $hour
-    minute=00
+    minute=1
     while [ $minute -le 59 ]
     do
         echo "$hour:$minute"
