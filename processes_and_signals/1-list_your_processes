@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#displaying process
+function ProCheck () {
+    ps -A --forest
+}
+ProCheck
+
