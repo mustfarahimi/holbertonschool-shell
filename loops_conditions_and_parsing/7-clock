@@ -5,9 +5,9 @@ hour=0
 minute=1
 
 while [ $hour -lt 13 ]; do
-    printf "Hour: %d\n" $hour
+    echo "Hour: $hour"
     while [ $minute -lt 60 ]; do
-        printf "%02d\n" $minute
+        echo "$minute"
         minute=$((minute + 1))
     done
     minute=1
