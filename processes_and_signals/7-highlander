@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #blahblah
 trap "echo I am invincible!!!" SIGTERM
-x=1
+x=0
+i=1
 while [ "$x" -gt 0 ]
 do
 	echo "To infinity and beyond"
