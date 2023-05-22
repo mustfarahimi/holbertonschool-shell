@@ -2,4 +2,4 @@
 #write a Bash script that displays lines containing the bash word
 # shellcheck disable=SC2009
 
-ps -aux -f
+ps -auxf
