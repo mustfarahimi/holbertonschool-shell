@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 #blahblah
 trap "echo I am invincible!!!" SIGTERM
-x=0
-i=1
+x=1
 while [ "$x" -gt 0 ]
 do
 	echo "To infinity and beyond"
-	x=$((i+1))
+	x=$((x+1))
 	sleep 2
 done
